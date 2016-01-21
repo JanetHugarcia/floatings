@@ -1,0 +1,38 @@
+
+.caja{
+	width: 100px;
+	height:100px;
+}
+
+#amarillo{
+	background-color: #FFFF00;
+}
+
+#azul{
+	background-color: #3A81BA;
+}
+
+#rojo{
+	background-color: #ED2251;
+}
+
+.contenedor{
+	border:2px solid #434343;
+	width: 400px;
+	margin:50px 50px 100px;
+
+} 
+
+
+.flotante{
+	float: right;
+}
+
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
